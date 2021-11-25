@@ -27,7 +27,7 @@ const data = [
         image: "https://links.papareact.com/7pf",
     },
 ];
-
+ 
 const SURGE_CHARGE_RATE = 1.5;
 
 const RideOptionsCard = () => {
