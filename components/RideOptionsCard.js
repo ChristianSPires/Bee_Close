@@ -28,7 +28,7 @@ const data = [
     },
 ];
  
-const SURGE_CHARGE_RATE = 1.5;
+/* const SURGE_CHARGE_RATE = 1.5; */
 
 const RideOptionsCard = () => {
     const navigation = useNavigation();
@@ -65,7 +65,7 @@ const RideOptionsCard = () => {
                         <Text style={tw`text-xl font-semibold`}>{title}</Text>
                         <Text>Travel time...</Text>
                     </View>
-                    <Text style={tw`text-xl`}>
+                    {/* <Text style={tw`text-xl`}>
 
 
                         {new Intl.NumberFormat("en-gb", {
@@ -76,7 +76,7 @@ const RideOptionsCard = () => {
                         )}
 
 
-                    </Text>
+                    </Text> */}
                 </TouchableOpacity>
             )}
             />
